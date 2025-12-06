@@ -30,7 +30,7 @@ Upload PDFs, provide URLs, or load technical sources — then ask **high-level e
 
 ---
 
-## [Live App](https://financial-kpi-extractor.streamlit.app/)
+## [Live App](https://semiconductor-research-assistant-rag.streamlit.app/)
 
 <img width="1680" height="925" alt="image" src="https://github.com/user-attachments/assets/a0eec016-050e-4d30-bffe-1b2d2650b77d" />
 
@@ -101,6 +101,7 @@ Contact
 Ashita C
 
 [LinkedIn Profile](https://www.linkedin.com/in/ashita-chandnani/)
+
 
 
 
