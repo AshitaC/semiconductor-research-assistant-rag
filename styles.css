@@ -99,3 +99,23 @@ hr {
     font-size: 13px;
     margin-top: 45px;
 }
+/* ============================================================
+   HIDE TOOLBAR COMPLETELY
+   ============================================================ */
+header[data-testid="stHeader"] {
+    display: none !important;
+}
+
+[data-testid="stToolbar"] {
+    display: none !important;
+}
+
+/* Hide management menu button */
+button[kind="header"] {
+    display: none !important;
+}
+
+/* Hide the top app bar */
+.stApp > header {
+    display: none !important;
+}
