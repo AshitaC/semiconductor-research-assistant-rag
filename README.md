@@ -9,7 +9,6 @@
 ![Groq](https://img.shields.io/badge/LLM-Groq_Llama_3.3_70B-black)
 ![ChromaDB](https://img.shields.io/badge/VectorDB-ChromaDB-306AFF)
 ![HuggingFace](https://img.shields.io/badge/Embeddings-HuggingFace-yellow)
-![RAG](https://img.shields.io/badge/RAG-Enabled-orange)
 
 
 ##  **Overview**
@@ -102,6 +101,7 @@ Contact
 Ashita C
 
 [LinkedIn Profile](https://www.linkedin.com/in/ashita-chandnani/)
+
 
 
 
