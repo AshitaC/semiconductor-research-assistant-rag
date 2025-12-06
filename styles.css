@@ -1,0 +1,101 @@
+/* ============================================================
+   Semiconductor Research Assistant — UI Theme (styles.css)
+   Cleanroom-inspired light theme with ASML/TSMC color palette
+   ============================================================ */
+
+/* ----------- GLOBAL COLORS (CSS variables) ---------- */
+:root {
+    --primary-blue: #0063C7;
+    --primary-blue-hover: #0080FF;
+    --accent-cyan: #00C2FF;
+    --background-gray: #F4F7FA;
+    --sidebar-gray: #F0F4F8;
+    --border-gray: #C9D6E3;
+    --navy-text: #003D82;
+    --card-shadow: rgba(0, 0, 0, 0.04);
+}
+
+/* ----------- PAGE BACKGROUND ---------- */
+body {
+    background-color: var(--background-gray) !important;
+}
+
+/* Remove Streamlit's default top padding */
+.st-emotion-cache-18ni7ap, header {
+    background: transparent !important;
+}
+
+/* ----------- MAIN CONTAINER LAYOUT ---------- */
+.main {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+/* ----------- SIDEBAR PANEL ---------- */
+.sidebar-card {
+    background: var(--sidebar-gray);
+    border-right: 1px solid #E2E8F0;
+    height: 100%;
+    padding: 25px;
+}
+
+/* ----------- LEFT PANEL CARDS ---------- */
+.left-card {
+    background: #ffffff;
+    border-radius: 14px;
+    padding: 18px;
+    box-shadow: 0 4px 12px var(--card-shadow);
+    margin-bottom: 20px;
+}
+
+/* ----------- TITLES ---------- */
+h1 {
+    color: var(--navy-text) !important;
+    font-weight: 700 !important;
+}
+
+/* ----------- INPUT FIELDS ---------- */
+input[type="text"],
+textarea,
+.stTextInput > div > div > input {
+    background-color: #ffffff !important;
+    border: 1.5px solid var(--border-gray) !important;
+    border-radius: 8px !important;
+    padding: 8px 12px !important;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05) !important;
+}
+
+/* File uploader alignment fix */
+.stFileUploader > div > div {
+    background: transparent !important;
+}
+
+/* ----------- BUTTONS ---------- */
+.stButton > button {
+    background-color: var(--primary-blue) !important;
+    color: white !important;
+    border-radius: 8px !important;
+    padding: 10px 18px !important;
+    font-weight: 500 !important;
+    border: none !important;
+    transition: 0.2s ease-in-out;
+}
+
+.stButton > button:hover {
+    background-color: var(--primary-blue-hover) !important;
+    box-shadow: 0 0 10px rgba(0, 194, 255, 0.35) !important;
+}
+
+/* ----------- DIVIDERS ---------- */
+hr {
+    border: none;
+    border-top: 1px solid #E2E8F0;
+    margin: 30px 0;
+}
+
+/* ----------- FOOTER ---------- */
+.footer-text {
+    color: #5A6B82;
+    font-size: 13px;
+    margin-top: 45px;
+}
