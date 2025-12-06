@@ -38,13 +38,6 @@ ChromaDB Vector Store (In-Memory)
 Query → Retrieval → LLM (Groq) → Answer
 ```
 
-Embeddings — llama-3.2-11b-embed (Groq)
-Used for vectorizing documents and queries.
-This model provides high-quality semantic embeddings and significantly improves retrieval accuracy, especially for long or technical documents.
-
-LLM — llama-3.1-8b-instant (Groq)
-Used for generation.
-Selected for its extremely low latency and strong instruction handling, making the demo fast and responsive.
 
 ##  Use Cases
 
@@ -64,4 +57,5 @@ Selected for its extremely low latency and strong instruction handling, making t
 - [ ] Multi-turn conversations with memory
 - [ ] Advanced RAG techniques (re-ranking, query expansion)
 - [ ] Support for more document types (DOCX, HTML)
+
 - [ ] Evaluation metrics (RAGAS framework)
