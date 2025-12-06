@@ -245,7 +245,7 @@ with st.expander("Advanced Settings"):
         "Number of source chunks to retrieve",
         min_value=3,
         max_value=15,
-        value=8,
+        value=5,
         help="Higher values provide more context but may include less relevant information"
     )
     
