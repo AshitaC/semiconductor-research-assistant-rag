@@ -34,7 +34,7 @@ load_dotenv()
 CHUNK_SIZE = 1000
 CHUNK_OVERLAP = 150
 HTTP_TIMEOUT = 15
-MAX_TOKENS = 1500
+MAX_TOKENS = 4000
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
@@ -96,7 +96,7 @@ def initialize_components(session_state):
             #model="llama-3.3-70b-versatile",
             #model="llama-3.1-8b-instruct",
             #model="llama-3.2-3b-instruct",
-            model="llama-3.1-8b-instant",
+            model=os.getenv("GROQ_MODEL", "openai/gpt-oss-20b")
             temperature=0.2,
             max_tokens=MAX_TOKENS,
         )
