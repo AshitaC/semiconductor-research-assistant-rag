@@ -96,7 +96,7 @@ def initialize_components(session_state):
             #model="llama-3.3-70b-versatile",
             #model="llama-3.1-8b-instruct",
             #model="llama-3.2-3b-instruct",
-            model=os.getenv("GROQ_MODEL", "openai/gpt-oss-20b")
+            model=os.getenv("GROQ_MODEL", "openai/gpt-oss-20b"),
             temperature=0.2,
             max_tokens=MAX_TOKENS,
         )
